@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sudhir Patel | Java Developer</title>
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Scanline Effect -->
+    <div class="scanline"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">&lt;SP/&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-button close"></span>
+                    <span class="terminal-button minimize"></span>
+                    <span class="terminal-button maximize"></span>
+                </div>
+                <h1 class="typing-text">
+                    SUDHIR PATEL<span class="typing-cursor">_</span>
+                </h1>
+                <p class="subtitle">Java Developer | Spring Boot | React Enthusiast</p>
+                
+                <div class="code-block">
+                    <div class="code-line">
+                        <span class="keyword">public class</span> Developer {
+                    </div>
+                    <div class="code-line" style="margin-left: 20px;">
+                        <span class="keyword">private final</span> String name = <span class="string">"Sudhir Patel"</span>;
+                    </div>
+                    <div class="code-line" style="margin-left: 20px;">
+                        <span class="keyword">private final</span> String[] skills = {<span class="string">"Java"</span>, <span class="string">"Spring Boot"</span>, <span class="string">"React"</span>, <span class="string">"MySQL"</span>, <span class="string">"MongoDB"</span>, <span class="string">"DSA"</span>};
+                    </div>
+                    <div class="code-line" style="margin-left: 20px;">
+                        <span class="keyword">private final int</span> solvedProblems = <span class="string">250</span>;
+                    </div>
+                    <div class="code-line" style="margin-left: 20px;">
+                        <span class="comment">// Code. Create. Deploy. Repeat.</span>
+                    </div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title" style="color: var(--neon-cyan);">ABOUT.ME</h2>
+        <div class="terminal-window">
+            <p style="line-height: 1.8;">
+                > Initializing profile...<br><br>
+                I'm a passionate <span class="keyword">Java Developer</span> who loves building scalable web applications with <span class="string">Spring Boot</span> and <span class="string">React</span>.  
+                I've solved <span class="string">250+</span> DSA problems on LeetCode and achieved <span class="string">Rank 3263</span> in TCS CodeVita. Hands-on experience with REST APIs, MongoDB, and MySQL.<br><br>
+                
+                > Loading expertise...<br>
+                ✓ Java | Spring Boot | RESTful APIs<br>
+                ✓ MongoDB | MySQL<br>
+                ✓ React (Basic Frontend Integration)<br>
+                ✓ Git | Postman | Swagger<br>
+                ✓ Deployment on Render & Vercel<br><br>
+                
+                > Status: Open to Java Backend & Full Stack Intern roles_
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title" style="color: var(--neon-green);">SKILLS.MATRIX</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <div class="skill-name">Java</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🍃</div>
+                <div class="skill-name">Spring Boot</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <div class="skill-name">REST APIs</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 88%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <div class="skill-name">MySQL</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📊</div>
+                <div class="skill-name">MongoDB</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚛️</div>
+                <div class="skill-name">React</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🧩</div>
+                <div class="skill-name">DSA</div>
+                <div class="skill-level">
+                    <div class="skill-progress" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title" style="color: var(--neon-pink);">PROJECTS.SHOWCASE</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 class="project-title">Anonymous Chat App</h3>
+                <p>Real-time anonymous chat application using Java (Spring Boot) for backend and React for frontend. Implements WebSocket communication and user anonymity.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">WebSocket</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sudhirskp/chatApp" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                    <a href="https://courageous-cheesecake-916884.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Employee Management System</h3>
+                <p>CRUD-based application to manage employees, built with Spring Boot and MySQL. Implements REST APIs and JPA for seamless data management.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">JPA</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sudhirskp/springboot-crud-app" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">DSA in Java</h3>
+                <p>Comprehensive collection of Data Structures and Algorithms implementations in Java. Features 200+ solved problems from LeetCode, including arrays, trees, graphs, and dynamic programming.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">DSA</span>
+                    <span class="tech-tag">Algorithms</span>
+                    <span class="tech-tag">LeetCode</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sudhirskp/DSA_in_java" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Currency Converter</h3>
+                <p>Real-time currency converter application with live exchange rates. Built with JavaScript and integrated with currency API for accurate conversions.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">API</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sudhirskp/currency-converter" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title" style="color: var(--neon-yellow);">CONTACT.INIT</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <!-- Web3Forms Access Key - Replace with your own -->
+                <input type="hidden" name="access_key" value="aed21079-e276-406d-b113-d9249c1cff5b">
+                
+                <div class="form-group">
+                    <label for="name">> Enter Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">> Enter Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">> Enter Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <!-- Honeypot spam protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                <button type="submit" class="submit-btn" id="submitBtn">SEND MESSAGE</button>
+                
+                <div id="result" class="form-result"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/sudhirskp" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/sudhirpatels" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+            <a href="https://leetcode.com/Sudhir101" target="_blank" rel="noopener noreferrer" class="social-link">LeetCode</a>
+            <a href="https://www.hackerrank.com/profile/spssudhir7348" target="_blank" rel="noopener noreferrer" class="social-link">HackerRank</a>
+            <a href="https://sudhircyber.hashnode.dev/" target="_blank" rel="noopener noreferrer" class="social-link">Blog</a>
+        </div>
+        <p>&copy; 2025 Sudhir Patel | System.out.println("Thanks for visiting!");</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
