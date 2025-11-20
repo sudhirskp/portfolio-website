@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Banner](https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:7c3aed,100:ec4899&height=180&section=header&text=Hacker%20Portfolio&fontSize=44&fontColor=00ff41&animation=scaleIn)
+![Portfolio Banner](https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:7c3aed,100:ec4899&height=180&section=header&text=Hack%20Portfolio&fontSize=44&fontColor=00ff41&animation=scaleIn)
 
 **A cyberpunk-themed developer portfolio with Matrix rain effect and terminal aesthetics**
 
